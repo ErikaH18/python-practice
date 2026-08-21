@@ -1,7 +1,7 @@
 #Python Practice Exercise 
 """
 Python Practice Exercise
-Small program that displays Student Information, in which we are praticing python variable naming conventions, formatted string, and string multiplication.
+Small program that displays Student Information, in which we are practicing python variable naming conventions, formatted string, and string multiplication.
 
 """
 
@@ -11,18 +11,18 @@ last_name = "Hurtado"
 age = 42
 city = "Gulf Breeze"
 career = "Child Program Assistant Director"
-goals = "I want to persue a carreer in software development."
+reasonforlearning = "I want to pursue a career in software development."
 fun_fact = "I can speak 3 languages, and I have an accent when I speak each one."
 
 # Display the Student Profile
 
 print("*" * 40)
-print("\tStudent Profile")
+print("Student Profile".center(40))
 print("*" * 40)
-print(f"Name:\t{first_name} {last_name}")
-print("Age:\t", age)
-print("City:\t", city)
-print("Previous Career:", career)
-print("\nWhy I'm learning to code:\n", goals)
+print(f"{'Name:':<8} {first_name} {last_name}")
+print(f"{'Age:':<8} {age}")
+print(f"{'City:':<8} {city}")
+print(f"Previous Career: {career}")
+print(f"\nWhy I'm learning to code:\n {reasonforlearning}")
 print("\nFun fact:", fun_fact)
 print("*" * 40)
