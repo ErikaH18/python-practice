@@ -1,0 +1,13 @@
+              Sales Report              
+========================================
+
+Total revenue: $1749.32
+
+Revenue per product:
+Product        Total Qty Total Revenue
+-----------------------------------
+Widget A       39        $779.61    
+Widget B       24        $719.76    
+Widget C       5         $249.95    
+
+Highest Revenue Day: 2026-01-17 ($579.80)
